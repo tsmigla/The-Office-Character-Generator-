@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(
+    rgb(250, 229, 186),
+    rgb(236, 169, 76),
+    rgb(230, 145, 35)
+  );
+  font-family: ;
+}
+
+article {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px auto 30px;
+}
+
+header {
+  font-size: 70px;
+  font-weight: semibold;
+  text-align: center;
+  padding: 8px;
+  background-color: white;
+  color: rgb(240, 138, 23);
+  text-shadow: 1px 1px 1px rgb(55, 55, 55);
+  font-family: americantyle;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(78, 118, 199);
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+main {
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+form {
+  display: grid;
+  grid-template: auto auto auto;
+  gap: 4px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
